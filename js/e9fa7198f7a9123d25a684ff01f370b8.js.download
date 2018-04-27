@@ -1,0 +1,1 @@
+$("header .container").append('<span class="search-icon">');$('.search-icon').click(function(e){e.stopPropagation();$('.popup').hide();centralize($('.popup_search'));});
