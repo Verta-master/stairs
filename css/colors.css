@@ -1,0 +1,78 @@
+body { /*# Сайт */
+	background-color: #FFFFFF;
+	color:#2E2E2E;
+}
+.nav { /*# Верхнее меню */
+	background-color: #BB3658;
+}
+.nav__list__link { /*# Пункты верхнего меню */
+	color:#FFFFFF;
+}
+.nav__list__link:hover { /*# Пункты верхнего меню при наведении  */
+	color: #D98B3A;
+}
+.req, .show_links, .abs__item, .popup { /*# Серые плашки */
+	background-color: #ECF0F1;
+	color: #2E2E2E;
+}
+form input[type=text],
+form input[type=password],
+form input[type=email],
+form input[type=tel],
+form textarea { /*# Элементы ввода */
+	border-color:#D6523C;
+	color: #555555;
+}
+form input[type=text]:focus,
+form input[type=password]:focus,
+form input[type=email]:focus,
+form input[type=tel]:focus,
+form textarea:focus { /*# Элементы ввода при наведении */
+	border-color: #7E3661;
+	color: #555555;
+}
+form input[type="submit"], .btn { /*# Кнопки */
+	background-color: #BB3658;
+	color:#FFFFFF;
+}
+form input[type="submit"]:hover, .btn:hover { /*# Кнопки при наведении */
+	background-color: #7E3661;
+	color:#FFFFFF;
+}
+form input[type="submit"]:active, .btn:active { /*# Кнопки при нажатии */
+	background-color: #65833D;
+	color:#FFFFFF;
+}
+a, .abs__room, .articles__link, .news__item__link, .block h4 a { /*# Ссылки */
+	color: #BB3658;
+}
+.abs__room:hover, .articles__link:hover, .block h4 a:hover { /*# Ссылки при наведении */
+	color: #D6523C;
+}
+.abs__next, .abs__prev,
+.news__slider__next, .news__slider__prev { /*# Кнопки слайдера */
+	background-color: #D6523C;
+}
+.abs__next:hover, .abs__prev:hover,
+.news__slider__next:hover, .news__slider__prev:hover { /*# Кнопки слайдера при наведении */
+	background-color: #BB3658;
+}
+
+.preview__wrap { /*# Слайдер подложка */
+    background-color: rgba(0,0,0,0.4);
+    color:#fff;
+}
+
+.preview__price { /*# Слайдер цена */
+    color:#fff;
+}
+
+.preview__slidenator__item:hover,
+.preview__slidenator__item_active {  /*# Навигация слайдера активная */
+	color: #fff;
+	background: #BB3658;
+}
+
+.abs__price, .info__price { /*# Цена в объявлениях */
+    color:#7E3661;
+}

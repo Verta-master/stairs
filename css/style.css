@@ -52,6 +52,9 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
+.pics__big a {
+  width: 100%;
+}
 @media (max-width: 1180px) {
   #wrapper {
     width: 100%;
@@ -103,6 +106,7 @@ html {
   }
   .container__right {
     margin-left: 0;
+    margin-right: 0;
     width: 752px;
   }
   .mistakes,
@@ -144,6 +148,9 @@ html {
     margin-left: auto;
     margin-right: auto;
   }
+  .info {
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 1020px) {
   .abs__crop {
@@ -172,6 +179,18 @@ html {
   }
   .container_inside .abs__item:nth-child(3n) {
     margin-right: 0;
+  }
+  .pics {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .info {
+    float: none;
+    width: 449px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
   }
 }
 @media (max-width: 766px) {
@@ -389,5 +408,13 @@ html {
     margin-left: 0;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
+  }
+  .pics__big,
+  .info,
+  .pics {
+    width: 100%;
+  }
+  .breadcrumb {
+    font-size: 24px;
   }
 }
